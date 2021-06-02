@@ -14,11 +14,11 @@ public class PruebaAlumno {
 	public static void main(String[] args) {
 
 		Set<Alumno> alumnos = new TreeSet<>();
-		alumnos.add(new Alumno("Juan", "Rodr�guez Su�rez", LocalDate.of(1980, 4, 21), "Ciclo Medio", 2));
-		alumnos.add(new Alumno("Juan", "Rodr�guez Su�rez", LocalDate.of(1985, 8, 2), "Ciclo Superior", 1));
-		alumnos.add(new Alumno("Antonio", "Rodr�guez Su�rez", LocalDate.of(1983, 4, 1), "Ciclo Superior", 2));
+		alumnos.add(new Alumno("Juan", "Rodríguez Suárez", LocalDate.of(1980, 4, 21), "Ciclo Medio", 2));
+		alumnos.add(new Alumno("Juan", "Rodríguez Suárez", LocalDate.of(1985, 8, 2), "Ciclo Superior", 1));
+		alumnos.add(new Alumno("Antonio", "Rodríguez Suárez", LocalDate.of(1983, 4, 1), "Ciclo Superior", 2));
 		alumnos.add(new Alumno("Felipe", "Arias Dominguez", LocalDate.of(1990, 2, 11), "Ciclo Medio", 1));
-		alumnos.add(new Alumno("Julian", "Antunez Su�rez", LocalDate.of(1981, 3, 21), "Ciclo Medio", 2));
+		alumnos.add(new Alumno("Julian", "Antunez Suárez", LocalDate.of(1981, 3, 21), "Ciclo Medio", 2));
 
 		System.out.println(alumnos.toString().replace("[", "").replace("]", ""));
 
