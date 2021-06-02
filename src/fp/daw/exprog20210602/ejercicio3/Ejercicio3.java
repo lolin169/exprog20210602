@@ -1,4 +1,4 @@
-package fp.daw.exprog2021.ejercicio3;
+package fp.daw.exprog20210602.ejercicio3;
 
 import java.util.Deque;
 import java.util.LinkedList;
