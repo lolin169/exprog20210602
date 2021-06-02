@@ -31,11 +31,11 @@ public class InterfazGrafica extends JFrame implements MouseListener, MouseMotio
 
 	public InterfazGrafica() {
 		super("Examen de la 3ª Evaluación - Ejercicio 4");
-		this.setLayout(new GridLayout(3, 1));
+		this.setLayout(new GridLayout(3, 1,50,50));
 		boton = new JButton("Pulsa aquí");
 		boton.registerKeyboardAction(this::veces, KeyStroke.getKeyStroke(KeyEvent.VK_P, InputEvent.ALT_DOWN_MASK), 1);
 		boton.addActionListener(this::veces);
-		etiqueta = new JLabel("Se ha pulsado el botón " + contador + " veces.");
+		etiqueta = new JLabel("           Se ha pulsado el botón " + contador + " veces.");
 		reset = new JButton("Reset");
 		reset.registerKeyboardAction(this::veces, KeyStroke.getKeyStroke(KeyEvent.VK_R, InputEvent.ALT_DOWN_MASK), 2);
 		reset.addActionListener(this::veces);
@@ -64,8 +64,7 @@ public class InterfazGrafica extends JFrame implements MouseListener, MouseMotio
 		case JOptionPane.NO_OPTION:
 			break;
 		}
-
-		
+	
 	}
 
 	public void colorear(MouseMotionListener e) {
